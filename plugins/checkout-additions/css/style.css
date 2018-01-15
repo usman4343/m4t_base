@@ -1,0 +1,10 @@
+.woocommerce form.checkout .col2-set p.form-row label {
+	display: block;
+}
+.woocommerce form.checkout .col2-set .form-row-wide {
+	float: left;
+	margin-top: 22px;
+}
+.woocommerce form.checkout .col2-set .form-row.form-row-wide input[type=text], .woocommerce form.checkout .col2-set .form-row.notes textarea, .woocommerce form.checkout .col2-set .form-row.form-row-wide select, .woocommerce form.checkout input {
+	outline: 1px solid #999;
+}

@@ -1,0 +1,422 @@
+2017-12-20T11:41:32+00:00 CRITICAL Cannot redeclare adeel() (previously declared in /home/unifie32/public_html/membership/wp-content/plugins/adeel/adeel.php:11)
+
+2017-12-20T11:41:34+00:00 CRITICAL Cannot redeclare adeel() (previously declared in /home/unifie32/public_html/membership/wp-content/plugins/adeel/adeel.php:11)
+
+2017-12-20T11:41:34+00:00 CRITICAL Cannot redeclare adeel() (previously declared in /home/unifie32/public_html/membership/wp-content/plugins/adeel/adeel.php:11)
+
+2017-12-22T08:17:16+00:00 CRITICAL Uncaught Error: Call to undefined function qode_header_parameters() in /home/unifie32/public_html/wp-content/themes/bridge/header.php:57
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/template.php(688): require_once()
+#1 /home/unifie32/public_html/wp-includes/template.php(647): load_template('/home/unifie32/...', true)
+#2 /home/unifie32/public_html/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/unifie32/public_html/wp-content/themes/bridge/full_width.php(36): get_header()
+#4 /home/unifie32/public_html/wp-includes/template-loader.php(74): include('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-blog-header.php(19): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2017-12-26T19:36:44+00:00 CRITICAL Uncaught Error: Call to undefined function qode_header_parameters() in /home/unifie32/public_html/wp-content/themes/bridge/header.php:32
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/template.php(688): require_once()
+#1 /home/unifie32/public_html/wp-includes/template.php(647): load_template('/home/unifie32/...', true)
+#2 /home/unifie32/public_html/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/unifie32/public_html/wp-content/themes/bridge/page.php(31): get_header()
+#4 /home/unifie32/public_html/wp-includes/template-loader.php(74): include('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-blog-header.php(19): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2017-12-28T05:24:41+00:00 CRITICAL Uncaught Error: Call to undefined function redirect() in /home/unifie32/public_html/wp-content/themes/bridge/functions.php:3196
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): adeel2('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2017-12-29T05:35:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/unifie32/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:597
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2017-12-29T05:38:15+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/unifie32/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:597
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2017-12-29T05:40:56+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/unifie32/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:597
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2017-12-29T05:46:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/unifie32/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:597
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2017-12-29T05:46:31+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/unifie32/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:597
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2017-12-29T05:47:06+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/unifie32/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:597
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2017-12-29T05:58:23+00:00 CRITICAL Cannot redeclare wp_login_form() (previously declared in /home/unifie32/public_html/wp-includes/general-template.php:390)
+
+2017-12-30T07:43:54+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /home/unifie32/public_html/wp-content/plugins/process-cart/index.php:42
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): add_user_subscription_to_pms_table('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-content/themes/bridge/test-plugin-template.php(7): do_action('my_page_hook')
+#4 /home/unifie32/public_html/wp-includes/template-loader.php(74): include('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-blog-header.php(19): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2017-12-30T08:08:48+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/unifie32/public_html/wp-content/plugins/process-cart/index.php:35
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): add_user_subscription_to_pms_table('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-content/themes/bridge/test-plugin-template.php(7): do_action('my_page_hook')
+#4 /home/unifie32/public_html/wp-includes/template-loader.php(74): include('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-blog-header.php(19): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2017-12-30T08:39:23+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_name() on boolean in /home/unifie32/public_html/wp-content/plugins/process-cart/index.php:57
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): add_user_subscription_to_pms_table('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-content/themes/bridge/test-plugin-template.php(7): do_action('my_page_hook')
+#4 /home/unifie32/public_html/wp-includes/template-loader.php(74): include('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-blog-header.php(19): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2017-12-30T10:08:26+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::get_result() in /home/unifie32/public_html/wp-content/plugins/process-cart/index.php:76
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): add_user_subscription_to_pms_table('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-content/themes/bridge/test-plugin-template.php(7): do_action('my_page_hook')
+#4 /home/unifie32/public_html/wp-includes/template-loader.php(74): include('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-blog-header.php(19): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2018-01-04T11:48:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:28
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:48:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:28
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:48:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:28
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-admin/admin-ajax.php(22): require_once('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2018-01-04T11:48:58+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:28
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:49:22+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:28
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:49:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:49:37+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:49:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:50:56+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-admin/admin-ajax.php(22): require_once('/home/unifie32/...')
+#7 {main}
+  thrown
+
+2018-01-04T11:51:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:51:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:51:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-04T11:52:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/unifie32/public_html/wp-content/plugins/sync-users/index.php:29
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/class-wp-hook.php(286): sync_users('')
+#1 /home/unifie32/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/unifie32/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/unifie32/public_html/wp-settings.php(471): do_action('wp_loaded')
+#4 /home/unifie32/public_html/wp-config.php(92): require_once('/home/unifie32/...')
+#5 /home/unifie32/public_html/wp-load.php(37): require_once('/home/unifie32/...')
+#6 /home/unifie32/public_html/wp-blog-header.php(13): require_once('/home/unifie32/...')
+#7 /home/unifie32/public_html/index.php(17): require('/home/unifie32/...')
+#8 {main}
+  thrown
+
+2018-01-08T09:54:52+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:20
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T09:54:52+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:20
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T09:54:52+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:20
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T09:54:52+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:20
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T09:54:52+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:20
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T09:54:53+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:20
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T09:55:00+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:20
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T10:03:59+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:15
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
+2018-01-08T11:20:13+00:00 CRITICAL Uncaught Error: Call to undefined function is_super_user() in /home/unifie32/public_html/wp-content/plugins/autoUser/adeel.php:15
+Stack trace:
+#0 /home/unifie32/public_html/wp-includes/shortcodes.php(319): custom_login_top('', '', 'my_top_login')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/unifie32/public_html/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(my_top...', 'do_shortcode_ta...', '[my_top_login]')
+#3 /home/unifie32/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('[my_top_login]')
+#4 /home/unifie32/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters('[my_top_login]', Array)
+#5 /home/unifie32/public_html/wp-includes/widgets/class-wp-widget-text.php(266): apply_filters('widget_text', '[my_top_login]', Array, Object(WP_Widget_Text))
+#6 /home/unifie32/public_html/wp-includes/class-wp-widget.php(372): WP_Widget_Text->widget(Array, Array)
+#7 /home/unifie32/public_html/wp-includes/widgets.php(742): WP_Widget->display_callback(Array, Array)
+#8 /home/u
+
